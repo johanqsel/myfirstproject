@@ -1,0 +1,31 @@
+
+#pongcontainer {
+    margin: 0 auto;
+    background-color: grey;
+    width: 310px;    
+}
+
+#won{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+h2, ul{
+    text-align: center;
+}
+
+ul{
+     padding: 0;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+} 
+
+@media screen and (max-width: 1360px){
+    #won{
+        font-size: 14px;
+    }
+}

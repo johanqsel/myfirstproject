@@ -1,0 +1,67 @@
+
+.cat, .cat1, .cat2 {
+    text-align: center;
+    cursor: pointer;
+}
+
+.cat > figcaption, .cat1 > figcaption, .cat2 > figcaption{
+    
+    margin: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.cat1, .cat2{
+    display: none;
+}
+
+@media screen and (max-width: 1500px) {
+    .cat, .cat2{
+        display: none;
+    }
+    .cat1{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .cat, .cat1{
+        display: none;
+    }
+    .cat2{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1006px){
+    .cat1, .cat2{
+        display: none;
+    }
+    .cat{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .cat, .cat2{
+        display: none;
+    }
+    .cat1{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .cat, .cat1{
+        display: none;
+    }
+    .cat2{
+        display: block;
+    }
+}
+
+
+
+
+
+

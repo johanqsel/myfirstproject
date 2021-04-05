@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    width: 100%;
+    margin: o auto;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+} 
+
+ nav ul li{
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.menu > li > a{
+    color: blue;
+}
+
+ nav a{
+    display: block;
+    text-decoration: none;
+    color: blue;
+    padding: 30px 0px;
+    font-size: 25px;
+} 
+
+nav a:hover{
+    color: red;    
+}
+
+ ul li:nth-child(1){
+    margin: 10px;
+} 
+
+ul li:nth-child(4){
+    margin-right: 10px;
+} 
+
+
+
+@media screen and (min-width: 980px){
+    
+
+    nav a:hover{
+    border-bottom: 2px solid green;
+    }
+
+    nav a{
+        padding: 30px 0px;
+        font-size: 40px;
+    } 
+
+    ul li:nth-child(1){
+        padding: 30px;
+        margin: 0 auto; 
+    } 
+
+}

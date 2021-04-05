@@ -1,0 +1,141 @@
+.summary{
+    grid-area: 4/1/5/6;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 2fr;
+}
+
+.title2{
+    grid-area: 1/1/2/6;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    border-bottom: 5px double black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.lang{
+    grid-area: 2/1/3/2;
+}
+
+.code{
+    grid-area: 2/2/3/3;
+}
+
+.useless{
+    grid-area: 2/3/3/4;
+}
+
+.school{
+    grid-area: 2/4/3/5;
+}
+
+
+
+.lang, .code, .useless, .school, .social{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+    border-right: 2px double black;
+    
+}
+
+.code{
+    margin-top: 0px;
+}
+
+.social{
+    grid-area: 2/5/3/6;
+    border-right: none;
+}
+
+.summary h3{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.progress{
+    text-align: right;
+    padding-right: 10px;
+    font-family: monospace;
+}
+
+
+
+label {
+    padding-right: 10px;
+    /* font-size: 1rem;  */
+    text-align: right;   
+}
+
+
+progress[value] {
+    -webkit-appearance: none;
+     appearance: none;
+  }
+
+  progress[value]::-webkit-progress-value {
+    background-color: black;
+  }
+
+  @media screen and (max-width: 1360px){
+    .title2{
+        
+        border-bottom: 4px double black;
+    }
+
+    .lang, .code, .useless, .school, .social{
+        margin-top: 4px;
+        border-right: 2px double black;
+    }
+
+    .summary h3{
+        margin-left: 7.5px;
+    }
+    
+    .progress{
+        padding-right: 7.5px;
+    }
+    
+    
+    
+    label {
+        padding-right: 7.5px;    
+    }
+
+  }
+
+  @media screen and (max-width: 1006px){
+    .summary{
+        display: block;
+    }
+
+    .lang, .code, .useless, .school, .social, .progress{
+        text-align: center;
+        font-weight: bold;
+        margin: 10px;
+        padding: 10px;
+        border-right: none;
+        border-bottom: 2px solid black ;
+    }
+
+    .file{
+        margin-right: 0px;
+    }
+
+    .progress{
+        border-bottom:none;
+    }
+
+    .summary h3{
+        padding-bottom: 5px;
+        text-align: center;    
+    }
+
+  }
+    
+    
+

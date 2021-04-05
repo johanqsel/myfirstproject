@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+  
+body{
+    background-color: black;
+    overflow: scroll; 
+}
+    
+  
+.bigcontainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+main h2{
+        font-family: 'Gothic A1', sans-serif;
+        text-align: center;
+        font-size: 100px;
+        color: white;
+        border-top: 5px solid white;
+        border-bottom: 5px solid white;
+        margin-top: 30px;
+        padding: 10px;
+        text-shadow: 10px 10px 10px rgb(199, 194, 194);
+}
+
+#projects{
+    width: 60%;
+    margin: 50px auto;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+#projects div{
+    background-color: rgb(44, 39, 39);
+    margin-top: 80px;
+    padding: 20px;
+    border-right: 1px solid white; 
+    border-left: 1px solid white;   
+}
+
+#projects a{
+    text-decoration: none;
+    color: blue;
+    border-bottom:2px solid transparent;
+
+}
+
+#projects a:hover{
+    color: red;
+    border-bottom: 2px solid green;
+}
+  
+
+  
+ 
+  
+@media screen and (max-width: 980px){
+    main h2{
+        font-size: 40px;
+    }
+
+
+    #projects{
+        width: 80%;
+        font-size: 16px;
+    }   
+}

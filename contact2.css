@@ -1,0 +1,62 @@
+
+#popup2>h2{
+  font-family: 'Gothic A1', sans-serif;
+  text-align: center;
+  font-size: 120px;
+  color: white;
+  text-shadow: 10px 10px 10px rgb(199, 194, 194);
+}
+
+
+#allContact{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: none;
+    overflow: scroll;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;    
+ }
+ 
+ #popup2{
+    margin: 0 auto;
+    width: 70%;
+    padding: 4rem;    
+ }
+ 
+ 
+  #btnContactClose{
+    background-color: red;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    float: right;
+    clear: both;
+    cursor: pointer;
+ }
+
+ a{
+    cursor: pointer;
+ }
+
+ @media screen and (max-width: 980px){
+   #popup2>h2{
+      font-size: 40px;
+   }
+   #btnContactClose{
+   border-radius: 5px;
+   padding: 5px;
+   }
+   #allContact{
+      height:100%;
+      font-size: 16px;
+      overflow: visible;
+   }
+   #popup2 a{
+      font-size: 20px;
+   }
+
+}
