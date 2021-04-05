@@ -5,6 +5,11 @@
     width: 310px;    
 }
 
+ #computergame{
+    display: none;
+ }
+
+
 #won{
     font-size: 20px;
     text-align: center;
@@ -28,4 +33,23 @@ li{
     #won{
         font-size: 14px;
     }
+}
+
+
+
+@media screen and (max-width: 1006px){
+
+
+#pongcontainer{
+    display:none;
+ }
+
+ #computergame{
+    display: block;
+    font-size: xx-large;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+ }
+
 }
