@@ -66,7 +66,7 @@ function stopCatColor2(){
     img2.src = images2[1];    
 }
 
-picture2.addEventListener('mouseover', catColor2);
+picture2.addEventListener('click', catColor2);
 picture2.addEventListener('mouseout', stopCatColor2);
 
 
