@@ -21,9 +21,7 @@ nav ul{
     text-align: center;
 }
 
-.menu > li > a{
-    color: blue;
-}
+
 
  nav a{
     display: block;
@@ -31,10 +29,12 @@ nav ul{
     color: blue;
     padding: 30px 0px;
     font-size: 16px;
+    font-weight: bold;
 } 
 
 nav a:hover{
-    color: red;    
+    color: red;  
+    border-bottom: 2px solid green;  
 }
 
  ul li:nth-child(1){

@@ -49,4 +49,7 @@
    #grid-planning{
       display: block;
   }
+  #title-planning{
+     margin-bottom: 10px;
+  }
 }

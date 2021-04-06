@@ -46,3 +46,28 @@ picture1.addEventListener('mouseover', catColor1);
 picture1.addEventListener('mouseout', stopCatColor1);
 
 
+let images2 = ["timinouPetit0.jpg", "timinouPetit1.jpg"];
+let img2 = document.getElementById('picture2');
+
+function catColor2(){
+    let counter2 = 0;
+    function changeImage2(){
+    	counter2++;
+        if(counter2 == images2.length){
+        	counter2 = 0;
+        }  
+        img2.src = images2[counter2];
+    }
+    t2=setInterval(changeImage2, 100);
+}
+
+function stopCatColor2(){
+    clearInterval(t2);
+    img2.src = images2[1];    
+}
+
+picture2.addEventListener('mouseover', catColor2);
+picture2.addEventListener('mouseout', stopCatColor2);
+
+
+

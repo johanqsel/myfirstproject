@@ -1,5 +1,5 @@
 .btnInterview{
-    background-color: rgb(230, 224, 224);
+    background-color: rgb(189, 189, 189);
     padding: 1em 2em;
     cursor: pointer;
     border: 1px solid black;
@@ -7,7 +7,7 @@
 }
 
 .btnInterview:hover{
-    background-color: rgb(126, 118, 118);
+    background-color: rgb(102, 102, 102);
 
 }
 
@@ -85,7 +85,7 @@
    margin: 0 1em; 
 }
 
- .question{
+ .question, .question1{
     font-style: italic;
     font-weight: bold;
  }
@@ -147,10 +147,14 @@
         display: block;
     }
 
+    .question{
+        padding-top: 1rem;
+    }
+
     .oeil{
         display: inline;
         border: 1px solid black;
-        margin: 0px auto;
+        margin: 0 1em .5em 0;
         padding: .1em;    
     }
 }
