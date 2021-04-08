@@ -52,6 +52,7 @@ main h2{
     font-weight: 900;
     color: blue;
     border-bottom:2px solid red;
+    background-color: rgba(0,0,0,.5);
 }
 
 #projects a:hover{

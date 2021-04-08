@@ -2,47 +2,19 @@
   margin: 0px;
   padding: 0px;
 }
+
 body{
-  background-color: black;
-  overflow: hidden; 
+  background:url(oeilNBpetit.jpg);
+  background-position: center;
 }
 
-
-.anim {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-}
-
-.anim div{
-  position: absolute;
-  top: calc((50% - 1500px));
-  left: calc((50% - 1500px));
-  width: 3000px;
-  height: 3000px;
-  border-radius: 100%;
-  color: white;
-  transform: scale(0);
-  background:  radial-gradient(circle at top left, rgba(0, 0, 0, 1) 41%,rgba(0, 0, 0, .7) 42%, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 1) 65%),  radial-gradient(circle at bottom left, rgba(0, 0, 0, 1) 36%, rgba(0, 0, 0, .9) 37%, rgba(0, 0, 0, .5) 45%, rgba(0, 0, 0, .7) 50%,  rgba(0, 0, 0) 57%), radial-gradient(circle at bottom center, rgba(0, 0, 0, 1) 32%, rgba(0, 0, 0, .1) 36%, rgba(0, 0, 0, 0) 37%), url(oeil9.jpg) no-repeat center fixed;
-
-}
-  
-.anim div:nth-child(1) { border: 40px solid blue; animation: big .4s 0s forwards;}
-.anim div:nth-child(2) { border: 40px solid blue; animation: big .4s .4s forwards;}
-
-@keyframes big {
-  0% {  transform: scale(0);}
-  100% {transform: scale(1);}
-}
 
 .bigcontainer {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   opacity: 0;
   animation: end 3s .8s forwards;
 
@@ -92,7 +64,8 @@ body{
 
 .hi:hover > #bjr{
   display:inline-block;
-  color:blue;
+  color: red;
+  background-color: rgba(0,0,0,.5);
 }
 
 .nm > #name{
@@ -110,6 +83,7 @@ body{
 .nm:hover > #nom{
   display:inline-block;
   color: blue;
+  background-color: rgba(0,0,0,.7);
 }
 
 .welcome > #wlcm{
@@ -126,7 +100,8 @@ body{
 
 .welcome:hover > #bnvn{
   display:inline-block;
-  color: blue;
+  color: red;
+  background-color: rgba(0,0,0,.5);
 }
 
 

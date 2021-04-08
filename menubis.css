@@ -8,6 +8,7 @@ nav{
     margin: o auto;
     position: sticky;
     top: 0px;
+    background-color: rgba(0,0,0,.7);
 }
 
 nav ul{

@@ -1,3 +1,21 @@
+window.addEventListener('load', animer);
+
+let ang = 0;
+function animer(){
+    let t = setTimeout('animer()', 50);
+    let elem = document.getElementById("circle1");
+    ang += 15;
+    if (ang<3600){
+        elem.style.transform = "rotateY("+ang+"deg)";
+    }else{
+        clearTimeout(t);
+        ang = 0;
+    }   
+}
+
+
+
+
 let btnContact = document.getElementById('btnContact');
 let allContact = document.getElementById('allContact');
 let btnContactClose = document.getElementById('btnContactClose');
