@@ -16,7 +16,8 @@
     color: white;
     width: 100%;
     display: none;
-    overflow: scroll;
+    overflow-y: scroll;
+    max-height: 100%;
     font-family: 'Roboto', sans-serif;
     font-size: 22px;    
  }
@@ -46,15 +47,16 @@
    #popup2>h2{
       font-size: 40px;
    }
+
    #btnContactClose{
    border-radius: 5px;
    padding: 5px;
    }
-   #allContact{
-      height:100%;
-      font-size: 16px;
-      overflow: visible;
+
+   #allContact{ 
+      font-size: 16px;  
    }
+   
    #popup2 a{
       font-size: 20px;
    }

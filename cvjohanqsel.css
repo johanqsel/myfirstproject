@@ -4,8 +4,9 @@
 }
 
 body{
-  background:url(oeilNBpetit.jpg);
+  background:url(oeilNBpetit.jpg), black;
   background-position: center;
+  
 }
 
 
@@ -41,7 +42,7 @@ body{
 
 .txt {
   position: absolute;
-  top: calc((50% - 100px));
+  top: calc((50% - 75px));
   left: calc((50% - 350px));
   height:100px;
   font-size: 70px;
@@ -119,7 +120,7 @@ body{
   .txt{
     position : absolute;
     left:5%;
-    top:20%;
+    top:25%;
     height:80px;
     font-size: 60px;
     text-align: left;
