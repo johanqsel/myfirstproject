@@ -48,7 +48,35 @@ body{
   font-size: 70px;
   color: #fff;
   line-height: 100px;
-  text-align: center;  
+  text-align: center;
+  /* text-shadow: 0px 0px 10px black;   */
+  text-shadow: 
+  /* first layer at 1px */
+  -1px -1px 0px #000,
+   0px -1px 0px #000,
+   1px -1px 0px #000,
+  -1px  0px 0px #000,
+   1px  0px 0px #000,
+  -1px  1px 0px #000,
+   0px  1px 0px #000,
+   1px  1px 0px #000,
+  /* second layer at 2px */
+  -2px -2px 0px #000,
+  -1px -2px 0px #000,
+   0px -2px 0px #000,
+   1px -2px 0px #000,
+   2px -2px 0px #000,
+   2px -1px 0px #000,
+   2px  0px 0px #000,
+   2px  1px 0px #000,
+   2px  2px 0px #000,
+   1px  2px 0px #000,
+   0px  2px 0px #000,
+  -1px  2px 0px #000,
+  -2px  2px 0px #000,
+  -2px  1px 0px #000,
+  -2px  0px 0px #000,
+  -2px -1px 0px #000;
 }
  
 .hi > #hello{
@@ -66,7 +94,33 @@ body{
 .hi:hover > #bjr{
   display:inline-block;
   color: red;
-  background-color: rgba(0,0,0,.5);
+  text-shadow: 
+  /* first layer at 1px */
+  -1px -1px 0px #000,
+   0px -1px 0px #000,
+   1px -1px 0px #000,
+  -1px  0px 0px #000,
+   1px  0px 0px #000,
+  -1px  1px 0px #000,
+   0px  1px 0px #000,
+   1px  1px 0px #000,
+  /* second layer at 2px */
+  -2px -2px 0px #000,
+  -1px -2px 0px #000,
+   0px -2px 0px #000,
+   1px -2px 0px #000,
+   2px -2px 0px #000,
+   2px -1px 0px #000,
+   2px  0px 0px #000,
+   2px  1px 0px #000,
+   2px  2px 0px #000,
+   1px  2px 0px #000,
+   0px  2px 0px #000,
+  -1px  2px 0px #000,
+  -2px  2px 0px #000,
+  -2px  1px 0px #000,
+  -2px  0px 0px #000,
+  -2px -1px 0px #000; 
 }
 
 .nm > #name{
@@ -84,7 +138,33 @@ body{
 .nm:hover > #nom{
   display:inline-block;
   color: blue;
-  background-color: rgba(0,0,0,.7);
+  text-shadow: 
+  /* first layer at 1px */
+  -1px -1px 0px #000,
+   0px -1px 0px #000,
+   1px -1px 0px #000,
+  -1px  0px 0px #000,
+   1px  0px 0px #000,
+  -1px  1px 0px #000,
+   0px  1px 0px #000,
+   1px  1px 0px #000,
+  /* second layer at 2px */
+  -2px -2px 0px #000,
+  -1px -2px 0px #000,
+   0px -2px 0px #000,
+   1px -2px 0px #000,
+   2px -2px 0px #000,
+   2px -1px 0px #000,
+   2px  0px 0px #000,
+   2px  1px 0px #000,
+   2px  2px 0px #000,
+   1px  2px 0px #000,
+   0px  2px 0px #000,
+  -1px  2px 0px #000,
+  -2px  2px 0px #000,
+  -2px  1px 0px #000,
+  -2px  0px 0px #000,
+  -2px -1px 0px #000; 
 }
 
 .welcome > #wlcm{
@@ -102,7 +182,33 @@ body{
 .welcome:hover > #bnvn{
   display:inline-block;
   color: red;
-  background-color: rgba(0,0,0,.5);
+  text-shadow: 
+  /* first layer at 1px */
+  -1px -1px 0px #000,
+   0px -1px 0px #000,
+   1px -1px 0px #000,
+  -1px  0px 0px #000,
+   1px  0px 0px #000,
+  -1px  1px 0px #000,
+   0px  1px 0px #000,
+   1px  1px 0px #000,
+  /* second layer at 2px */
+  -2px -2px 0px #000,
+  -1px -2px 0px #000,
+   0px -2px 0px #000,
+   1px -2px 0px #000,
+   2px -2px 0px #000,
+   2px -1px 0px #000,
+   2px  0px 0px #000,
+   2px  1px 0px #000,
+   2px  2px 0px #000,
+   1px  2px 0px #000,
+   0px  2px 0px #000,
+  -1px  2px 0px #000,
+  -2px  2px 0px #000,
+  -2px  1px 0px #000,
+  -2px  0px 0px #000,
+  -2px -1px 0px #000; 
 }
 
 
